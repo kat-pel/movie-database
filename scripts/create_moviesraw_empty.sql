@@ -25,4 +25,4 @@ CREATE TABLE moviesraw (
 );
 --https: / / stackoverflow.com / questions / 38481829 / postgresql - character - with - byte - sequence - 0xc2 - 0x81 - in - encoding - utf8 - has - no - equ
 --https: / / stackoverflow.com / questions / 48872965 / postgres - copy - syntax
--- psql \ copy moviesraw FROM 'C:\Users\kbaka\_Projects\2020-06-06_IMDB_project\data\IMDb movies_utf8.csv' WITH DELIMITER ',' CSV HEADER;
+--   psql -c \copy moviesraw FROM 'C:/Users/Bruker/_projects/git/movie-database/data/IMDb movies_utf8.csv' WITH DELIMITER ',' CSV HEADER
